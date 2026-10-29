@@ -1,0 +1,33 @@
+# Dataset
+DATA/
+
+# Python environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.keras
+*.h5
+*.pkl
+*.joblib
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# # Model files - keep large models out of normal Git
+# *.keras
+# *.h5
+# *.pkl
+# *.joblib
+
+# System files
+.DS_Store
+Thumbs.db
